@@ -1,0 +1,212 @@
+html {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  background-color: rgb(45, 44, 53);
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+div {
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+.result-text {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: whitesmoke;
+}
+
+.vs {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: whitesmoke;
+}
+
+.timestamp {
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+}
+
+.card-card {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 1px;
+  color: white;
+  width: 100%;
+
+  background-color: gray;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.spell {
+  border-width: 0px;
+}
+
+.card-cost {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 4px;
+  width: 100%;
+  align-self: flex-start;
+  overflow: hidden;
+  flex: 0 1 auto;
+}
+
+.cost-container {
+  background-color: rgb(21, 39, 86);
+  box-shadow: rgba(20, 11, 36, 0.8) 0px 0px 6px 0px,
+    rgba(0, 0, 0, 0.5) 0px 0px 3px 0px inset;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 173, 112);
+  border-image: initial;
+  border-radius: 100%;
+}
+
+.cost-wrapper {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+  flex: 0 0 auto;
+}
+
+.cost-text {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.card-name-text {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 550;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 4px;
+  width: 95%;
+  align-self: flex-start;
+  overflow: hidden;
+  flex: 0 1 auto;
+  color: whitesmoke;
+  margin-left: 5%;
+}
+
+.deck-container {
+  -webkit-box-pack: center;
+  justify-content: center;
+  grid-row-gap: 24px;
+  background-color: slategray;
+  border-radius: 0.5em;
+  padding: 2em;
+}
+
+.card-count-container {
+  box-shadow: rgba(20, 11, 36, 0.6) 0px 0px 4px 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(204, 173, 112, 0.6);
+  border-image: initial;
+  background: linear-gradient(
+    313.24deg,
+    rgb(56, 43, 33) 0%,
+    rgb(46, 33, 33) 100%
+  );
+  border-radius: 3px;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.card-count-inner-container {
+  height: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 173, 112);
+  border-image: initial;
+  background: linear-gradient(
+    313.24deg,
+    rgb(56, 43, 33) 0%,
+    rgb(46, 33, 33) 100%
+  );
+  margin: 2px;
+  padding: 0px 8px;
+  border-radius: 3px;
+}
+
+.card-count-text-x {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  vertical-align: top;
+  margin-right: 0px;
+}
+
+.card-count-amount {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  line-height: 17px;
+  vertical-align: top;
+  color: lightgray;
+}
+
+.seperator {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.category-title {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0px 16px;
+}
+
+.cat-header-container {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}

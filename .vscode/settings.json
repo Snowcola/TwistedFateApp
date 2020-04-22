@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "C:\\Users\\Captain\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\eelapp-py3.6\\Scripts\\python.exe",
+    "python.formatting.provider": "black"
+}
